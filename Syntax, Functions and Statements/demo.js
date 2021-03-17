@@ -18,3 +18,4 @@ walk();
 const walk=()=>{ // expression function anonymous function
     console.log("Walking");
 }
+
