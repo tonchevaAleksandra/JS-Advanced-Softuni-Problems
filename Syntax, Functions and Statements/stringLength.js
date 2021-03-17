@@ -4,3 +4,4 @@ function stringLength(input1, input2, input3){
     let averageSum = Math.floor(sum/3);
 console.log(averageSum);
 }
+stringLength("s", "bo", "hyg");
