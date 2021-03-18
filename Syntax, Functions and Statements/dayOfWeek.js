@@ -6,10 +6,10 @@ function dayOfWeek(input){
         case "Wednesday": result=3; break;
         case "Thursday": result=4; break;
         case "Friday": result=5; break;
-        case "saturday": result=6; break;
+        case "Saturday": result=6; break;
         case "Sunday": result=7; break;
         default: result=0;
-        break;
+            break;
     }
     if (result===0){
         console.log('error');
@@ -17,6 +17,5 @@ function dayOfWeek(input){
         console.log(result);
     }
 }
-
-dayOfWeek("Saturday");
+dayOfWeek("Invalid");
 dayOfWeek("55");
