@@ -144,7 +144,7 @@ class SinglyLinkedList<T>{
 
   reverse(): SinglyLinkedList<T> {
     if (this.isEmpty) {
-      return new SinglyLinkedList<T>();
+      return this;
     } else if (this.length === 1) {
       return this;
     } else {
@@ -157,6 +157,7 @@ class SinglyLinkedList<T>{
         previoiousNode = currentNNode;
         currentNNode = nextNode;
       }
+      return this;
     }
   }
 }
