@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "typescript": "^4.2.4",
     "@typescript-eslint/eslint-plugin": "4.7.0",
     "typescript-eslint/parser": "4.22.0",
     "eslint": "7.25.0",
@@ -10,10 +9,21 @@
     "ts-node": "9.1.1"
   },
   "devDependencies": {
-    "prettier": "2.3.0"
+    "@types/jest": "^26.0.23",
+    "chai": "^4.2.0",
+    "nyc": "^14.1.1",
+    "prettier": "2.3.0",
+    "typescript": "^3.5.3"
   },
   "scripts": {
     "start": "nodemon",
     "build": "tsc"
-  }
+  },
+  "name": "Typescript",
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
